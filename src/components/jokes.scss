@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .jokesContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .leftColumn {
+    flex: 1;
+  }
+  
+  .leftColumn h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .jokePic {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+  }
+  
+  .rightColumn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .rate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+  }
+  
+  .rateCount {
+    color: rgb(243, 51, 217);
+    font-size: 3rem;
+  }
+  
+  .rate i {
+    font-size: 3rem;
+    cursor: pointer;
+    color: #eae2e2;
+    margin: 5px 0;
+    padding: 7px;
+  }
+  
+  .rate i:hover {
+    color: #007bff;
+  }
+  
+  .jokeBox {
+    margin-top: 20px;
+    background-color: #fffcfc;
+    padding: 30px;
+    margin-left: 40px;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  .jokeQuiz {
+    font-weight: bold;
+  }
+  
+  .jokeAnsw {
+    margin-top: 10px;
+    color: rgb(138, 52, 138);
+  }
+  
+  h2 {
+    margin-left: 150px;
+    font-size: 3rem;
+    margin-top: 20px;
+    border: 1px solid #333;
+    color: rgb(95, 24, 95);
+  }
+  
+  .endColumn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 140px;
+    // border-left: 1px solid purple; 
+    font-size: 1.5rem;
+    color: #ffc107; /* Color for stars */
+  }
+  
+  .endColumn i {
+    color: #ffc107; /* Color for stars */
+  }
+  
