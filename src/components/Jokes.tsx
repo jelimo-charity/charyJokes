@@ -1,6 +1,5 @@
 // Jokes.tsx
-
-import  { useReducer } from 'react';
+import { useReducer } from 'react';
 import './jokes.scss';
 import { rateCount } from './JokesReducer';
 
@@ -53,7 +52,6 @@ const Jokes = ({ question, answer }) => {
         </div>
       </div>
       <div className="endColumn">
-        {/* Display stars based on rateCountState */}
         {renderStars()}
       </div>
     </div>

@@ -1,7 +1,30 @@
+// App.scss
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .form {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .form input {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
   }
   
   .jokesContainer {
@@ -9,21 +32,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .leftColumn {
-    flex: 1;
-  }
-  
-  .leftColumn h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-  
-  .jokePic {
-    width: 100%;
-    max-width: 200px;
     border-radius: 10px;
   }
   
@@ -87,8 +95,6 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    margin-left: 140px;
-    // border-left: 1px solid purple; 
     font-size: 1.5rem;
     color: #ffc107; /* Color for stars */
   }
